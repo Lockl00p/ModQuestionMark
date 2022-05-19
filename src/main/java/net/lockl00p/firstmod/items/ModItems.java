@@ -7,6 +7,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
+
 public class ModItems {
     public static final Item MYTHRIL_INGOT = regItem("mythril_ingot", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static Item regItem(String name, Item item){
