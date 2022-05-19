@@ -5,6 +5,12 @@ import net.lockl00p.firstmod.items.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.python.util.PythonInterpreter;
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.util.Identifier;
+import net.minecraft.util.registry.Registry;
+
 public class FirstMod implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
