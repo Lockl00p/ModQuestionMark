@@ -12,6 +12,7 @@ import net.minecraft.util.registry.Registry;
 public class ModItems {
 // The item at hand, using fabric itemsettings to determine the group and create the rest of the item.
     public static final Item MOONCHEEZE_INGOT = regitem("mooncheeze_ingot",new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item MOONCHEEZE_NUGGET = regitem("mooncheeze_nugget",new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static Item regitem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(FirstMod.modid,name), item);
     }
